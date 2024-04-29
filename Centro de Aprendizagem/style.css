@@ -1,0 +1,484 @@
+/* ESTILO GERAL */
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+    }
+    .interface{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    body{
+      
+        height: 100vh;
+        
+    }
+    .flex{
+        display:flex;
+    }
+    h2.titulo{
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        padding: 40px;
+
+      }
+      
+      
+     
+   
+      h1 span{
+        color:#fcbc60;
+        
+
+      }
+      .flavia-contato button{
+        padding: 10px 10px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: 0;
+        background-color:#94b4c4;
+        cursor: pointer;
+        transition: .2s;
+        
+      }
+      .flavia-contato button:hover{
+        box-shadow: 0px 0px 8px #94b4c4;
+        transform: scale(1.05);
+      }
+      .priscila-contato button{
+        padding: 10px 10px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 30px;
+        border: 0;
+        background-color:#94b4c4;
+        cursor: pointer;
+        transition: .2s;
+        
+      }
+      .priscila-contato button:hover{
+        box-shadow: 0px 0px 8px #94b4c4;
+        transform: scale(1.05);
+      }
+      h2 span{
+        color: #fcbc60;
+      }
+      .flex-gg{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      /* estilos do cabeçalho*/
+
+header {
+    padding: 40Px 4%;
+
+}
+ header > .interface{
+    display: flex;
+align-items: flex-start;
+justify-content:space-between
+
+ }
+
+ header a{
+    color:#94b4c4;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+ }
+
+ 
+ header nav ul{
+    list-style: none;
+ }
+ 
+ header nav  li{
+    display: inline-block;  
+    /* display espaço em torno de um elemento em todos os lados. */
+    padding: 0 40px;
+ }
+ 
+ /*Estilos do TOPO DO SITE*/
+ 
+    
+ 
+ .txt-topo-do-site{
+    font-size: 17px;
+    padding: 0 52px 40px;
+    
+ }
+.txt-topo-do-site p{
+  line-height: 20x;
+    font-size: 21px;
+    margin-inline-end: 370px;
+}
+.img-flavia{
+  height: 160px;
+  width: 160px;
+  border-radius: 169px;
+  background: #fcbc60;
+  box-shadow:  16px 16px 32px #886634,
+               -16px -10px 32px #ffff8c;
+  
+  margin: 15px;
+  
+
+}
+.img-priscila{
+  height: 160px;
+  width: 160px;
+  border-radius: 169px;
+  background: #fcbc60;
+  box-shadow:  16px 16px 32px #886634,
+               -16px -10px 32px #ffff8c;
+  
+  margin: 15px;
+}
+.img-flavia{
+  position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    
+}
+
+.img-priscila{
+  position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    
+}
+@keyframes flutuar{
+  0%{
+      top: 0;
+  }
+  100%{
+      top:30px
+  }
+}
+/*SOBRE NÓS*/
+section.sobre-nos{
+  padding: 80px;
+}
+.txt-sobre h2{
+  padding: 0 0 10px;
+  text-align: center;
+}
+.txt-sobre h2 span{
+  color: #fcbc60;
+
+}
+.txt-sobre p{
+  text-align: justify;
+  margin: 23px;
+  
+}
+/* MEIO/FINAL DO SITE(ESCOLHER FMS )*/
+section.ESCOLHA{
+  padding: 40px 4% 30px;
+  
+
+}
+.lista li{
+  color:black;
+  line-height: 28px;
+  font-size: 18px;
+  line-break: normal;
+  margin: 14px;
+  
+}
+.flex> .lista:hover{
+  transform: scale(1.05);
+  box-shadow:  0 20px #94b4c4;
+ 
+
+}
+
+.flex> .lista{
+  
+  border-radius: 20px;
+  transition: .2s;    
+}
+  /* O QUE OFERECEMOS */
+    
+  section.especialidade{
+    padding: 40px 4%;
+    
+}
+section.especialidade .flex{
+    gap: 50px;
+}
+
+.especialidade i{
+    font-size: 40px;
+    color: #e7be08;
+    margin-left: 20px;
+    
+
+}
+.especialidade p{
+    font-size: 15px;
+}
+.flex> .tangue{
+    
+    border-radius: 20px;
+    transition: .2s;
+    
+    
+}
+.flex> .tangue:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.486);
+}
+
+/*esepecialidades*/
+section.especialidades{
+  padding: 40px 4%;
+  
+}
+section.especialidades .flex-gg{
+  gap:80px;
+}
+
+.especialidades i{
+  font-size: 40px;
+  color: #e7be08;
+  margin-left: 20px;
+  
+
+}
+.especialidades p{
+  font-size: 15px;
+}
+.flex-gg> .dificil{
+  
+  border-radius: 20px;
+  transition: .2s;
+  
+  
+}
+.flex-gg> .dificil:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.486);
+}
+.flex-gg h3{
+text-align: center;
+}
+/* FORMULARIO DE CONTATO*/
+section.formulario{
+  padding: 80px 4%;
+}
+form{
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+form input,textarea{
+  width: 100%;
+  background-color: #94b4c4af;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+.fms-enviar{
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+form input::placeholder{
+  color:black ;
+}
+textarea{
+  resize: none;
+}
+textarea::placeholder{
+  color:black;
+}
+form .fms-enviar input{
+  width: 120px;
+  background-color:black;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .2s;
+  
+
+}
+form.fms-enviar{
+  text-align: center;
+}
+/* FOOTER */
+footer{
+  padding: 60px 4%;
+}
+
+footer .flex{
+  justify-content: space-between;
+}
+footer .linha-up{
+  padding: 20px 0;
+  
+}
+.borda{
+  border-top: 2px solid #94b4c4;;
+}
+
+footer .linha-up p i{
+color: #e7be08;
+font-size: 22px;
+}
+footer .linha-up p a{
+  color: #fff;
+}
+@media screen and (max-width:1020px){
+  /* CLASSES GERAIS */
+  .flex{
+     flex-direction: column-reverse;
+ }
+ h2.titulo{
+     
+     font-size: 28px;
+     text-align: center ;
+     padding: 20px;
+
+   }
+
+ /* cabeçalho */
+ .menu-desktop,.fms-contato{
+     display: none;
+ }
+ /* TOPO DO SITE */
+ section .topo-do-site {
+     padding: 40px 8%;
+      }
+ .topo-do-site h1{
+    
+     font-size: 28px;
+     line-height: 33px;
+}
+.topo-do-site .img-topo-site{
+ width: 1%;
+ 
+}
+.txt-topo-do-site p{
+  flex-direction: column;
+}
+/* ESPECIALIDADES */
+.especialidade p{
+
+ font-size:17px;
+}
+section.especialidade{
+ padding: 40px 8%;
+ 
+}
+/* SOBRE NÓS */
+.txt-sobre p{
+ 
+ font-size: 16px;
+ text-align: unset;
+}
+/* PORQUE ESCOLHER FMS  */
+.lista li{
+ font-size: 17px;
+
+}
+/* RODAPÉ */
+footer .flex{
+ flex-direction: column;
+ gap: 30px;
+}
+footer .linha-up{
+ text-align: center;
+ 
+}
+}
+/*SCROLL DO SITE  */
+html{
+ scroll-behavior: smooth;
+}
+.img-flavia{
+  height: 160px;
+  width: 150px;
+  border-radius: 169px;
+  background: #fcbc60;
+  box-shadow:  16px 16px 32px #886634,
+               -16px -10px 32px #ffff8c;
+  
+  margin: 15px;
+  
+
+}
+.img-priscila{
+  border-color:#fcbc60;
+  height: 160px;
+  
+  border-radius: 169px;
+  background: #94b4c4;
+  box-shadow:  16px 16px 32px #886634,
+               -16px -10px 32px #ffff8c;
+margin: 15px;
+}
+/* Estilo do menu MOBILE */
+.fms-abrir-menu i{
+  color: #94b4c4;
+  font-size: 40px;
+}
+.menu-mobile{
+  background-color:black;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99999 ;
+  width: 0%;
+  overflow: hidden;
+  transition: .5s;
+}
+.menu-mobile.abrir-menu{
+  width: 70%;
+}
+.menu-mobile.abrir-menu~.overlay-menu{
+  display: block;
+
+}
+.menu-mobile .fms-fechar{
+  padding: 20px 5%;
+}
+.menu-mobile nav ul{
+  text-align: right;
+
+}
+.menu-mobile nav ul li a{
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px 4%;
+  display: block;
+}
+.menu-mobile nav ul li a:hover{
+  background-color: #94b4c4;
+  color: black;
+}
+.overlay-menu{
+  background-color:rgba(0, 0, 0, 0.705) ;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 88888;
+  display: none;
+}
+.menu-mobile nav ul li{
+  display: inline;
+}
